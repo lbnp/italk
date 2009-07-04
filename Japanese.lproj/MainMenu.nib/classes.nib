@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = Italk; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {theController = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {connect = id; textEntered = id; }; 
+            CLASS = ItalkController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                connectButton = NSButton; 
+                connectProgress = NSProgressIndicator; 
+                italk = Italk; 
+                logTextView = NSTextView; 
+                serverNameField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
