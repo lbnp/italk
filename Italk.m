@@ -66,7 +66,6 @@
 	if (connect(sockfd, (struct sockaddr *)&sin, sizeof(sin)) < 0) {
 		printf("cannot connect\n");
 		close(sockfd);
-		sockfd = -1;
 		return;
 	}
     

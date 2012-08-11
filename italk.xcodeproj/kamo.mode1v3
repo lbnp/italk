@@ -206,15 +206,13 @@
 		<dict>
 			<key>ChosenToolbarItems</key>
 			<array>
-				<string>active-target-popup</string>
-				<string>active-buildstyle-popup</string>
+				<string>active-combo-popup</string>
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
-				<string>buildOrClean</string>
-				<string>build-and-goOrGo</string>
+				<string>debugger-enable-breakpoints</string>
+				<string>build-and-go</string>
 				<string>com.apple.ide.PBXToolbarStopButton</string>
 				<string>get-info</string>
-				<string>toggle-editor</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
 				<string>com.apple.pbx.toolbar.searchfield</string>
 			</array>
@@ -237,7 +235,6 @@
 						<array>
 							<string>1C37FBAC04509CD000000102</string>
 							<string>1C37FAAC04509CD000000102</string>
-							<string>1C08E77C0454961000C914BD</string>
 							<string>1C37FABC05509CD000000102</string>
 							<string>1C37FABC05539CD112110102</string>
 							<string>E2644B35053B69B200211256</string>
@@ -278,8 +275,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
-									<integer>22</integer>
+									<integer>2</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -328,24 +326,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3D335DE60F35D84200664918</string>
+										<string>3DD6876213ADE2780019785A</string>
 										<key>history</key>
 										<array>
-											<string>3D870B850F1E9BCF000208DD</string>
-											<string>3D127C850F220D4000091A45</string>
-											<string>3DDBD7650F310E3600251630</string>
-											<string>3DF9593B0F31D7B10049F158</string>
-											<string>3D49D69D0F332B6700AFAA8E</string>
-											<string>3D49D69F0F332B6700AFAA8E</string>
-										</array>
-										<key>prevStack</key>
-										<array>
-											<string>3D47A3E80CD4DA9F004142AD</string>
-											<string>3D47A3E90CD4DA9F004142AD</string>
-											<string>3D47A3EA0CD4DA9F004142AD</string>
-											<string>3D47A3EC0CD4DA9F004142AD</string>
-											<string>3D870B870F1E9BCF000208DD</string>
-											<string>3D127C880F220D4000091A45</string>
+											<string>3DD6875F13ADE2780019785A</string>
+											<string>3DD6876013ADE2780019785A</string>
+											<string>3DD6876113ADE2780019785A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -357,14 +343,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {831, 427}}</string>
+								<string>{{0, 0}, {831, 421}}</string>
 								<key>RubberWindowFrame</key>
 								<string>138 116 1042 662 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>427pt</string>
+							<string>421pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -377,14 +363,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 432}, {831, 189}}</string>
+								<string>{{0, 426}, {831, 195}}</string>
 								<key>RubberWindowFrame</key>
 								<string>138 116 1042 662 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>189pt</string>
+							<string>195pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -403,12 +389,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3D335DDE0F35D6DE00664918</string>
+				<string>3DD6875A13ADDA5E0019785A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3D335DDF0F35D6DE00664918</string>
+				<string>3DD6875B13ADDA5E0019785A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
+			<key>ToolbarConfigUserDefaultsMinorVersion</key>
+			<string>2</string>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.defaultV3</string>
 		</dict>
@@ -537,8 +525,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3D0E2D720CD337B9000ADE52</string>
 		<string>/Users/kamo/proj/italk/italk.xcodeproj</string>
 	</array>
@@ -586,7 +572,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>XCMainBuildResultsModuleGUID</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ビルド</string>
+								<string>ビルド結果</string>
 								<key>XCBuildResultsTrigger_Collapse</key>
 								<integer>1021</integer>
 								<key>XCBuildResultsTrigger_Open</key>
@@ -620,7 +606,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3D0E2D720CD337B9000ADE52</string>
-				<string>3D335DE70F35D84200664918</string>
+				<string>3DD6875C13ADDA5E0019785A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

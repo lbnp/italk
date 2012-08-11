@@ -55,7 +55,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					580,
+					592,
 					20,
 					48,
 					43,
@@ -110,7 +110,7 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 268368901;
+			PBXPerProjectTemplateStateSaveDate = 330160730;
 			PBXPrepackagedSmartGroups_v2 = (
 				{
 					PBXTransientLocationAtTop = bottom;
@@ -561,18 +561,13 @@
 				PBXModuleWindowStatusBarHidden = YES;
 				RubberWindowFrame = "139 272 745 464 0 0 1024 746 ";
 			};
-			PBXWorkspaceStateSaveDate = 268368901;
+			PBXWorkspaceStateSaveDate = 330160730;
 		};
 		perUserProjectItems = {
-			3D16619F0FFEFD3B00F80E7C /* PBXTextBookmark */ = 3D16619F0FFEFD3B00F80E7C /* PBXTextBookmark */;
-			3D1C92A50F3726A900E0B011 /* PBXTextBookmark */ = 3D1C92A50F3726A900E0B011 /* PBXTextBookmark */;
-			3D1C92A60F3726A900E0B011 /* PBXTextBookmark */ = 3D1C92A60F3726A900E0B011 /* PBXTextBookmark */;
-			3D1C92A90F37270800E0B011 /* PBXTextBookmark */ = 3D1C92A90F37270800E0B011 /* PBXTextBookmark */;
-			3DC5CF260FFEFB7E00A54D99 /* PBXTextBookmark */ = 3DC5CF260FFEFB7E00A54D99 /* PBXTextBookmark */;
-			3DEAA2F20F7FA5D700767D55 /* PBXTextBookmark */ = 3DEAA2F20F7FA5D700767D55 /* PBXTextBookmark */;
-			3DEAA2F30F7FA5D700767D55 /* PBXTextBookmark */ = 3DEAA2F30F7FA5D700767D55 /* PBXTextBookmark */;
-			3DEAA2F60F7FA5D700767D55 /* PBXTextBookmark */ = 3DEAA2F60F7FA5D700767D55 /* PBXTextBookmark */;
-			3DEAA2F70F7FA5D700767D55 /* PBXTextBookmark */ = 3DEAA2F70F7FA5D700767D55 /* PBXTextBookmark */;
+			3DD6875F13ADE2780019785A /* PBXTextBookmark */ = 3DD6875F13ADE2780019785A /* PBXTextBookmark */;
+			3DD6876013ADE2780019785A /* PBXTextBookmark */ = 3DD6876013ADE2780019785A /* PBXTextBookmark */;
+			3DD6876113ADE2780019785A /* PBXTextBookmark */ = 3DD6876113ADE2780019785A /* PBXTextBookmark */;
+			3DD6876213ADE2780019785A /* PBXTextBookmark */ = 3DD6876213ADE2780019785A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3DC5A5B10646D0DE00D07706 /* Source Control */;
 		userBuildSettings = {
@@ -580,9 +575,9 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {479, 253}}";
-			sepNavSelRange = "{190, 42}";
-			sepNavVisRange = "{14, 220}";
+			sepNavIntBoundsRect = "{{0, 0}, {758, 414}}";
+			sepNavSelRange = "{128, 0}";
+			sepNavVisRange = "{0, 240}";
 			sepNavVisRect = "{{0, 84}, {453, 126}}";
 			sepNavWindowFrame = "{{112, 176}, {750, 558}}";
 		};
@@ -596,16 +591,16 @@
 	};
 	3D13057006574ED200C942B8 /* ItalkController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 1752}}";
-			sepNavSelRange = "{672, 0}";
-			sepNavVisRange = "{2535, 919}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 1549}}";
+			sepNavSelRange = "{2203, 0}";
+			sepNavVisRange = "{2561, 893}";
 			sepNavVisRect = "{{0, 350}, {705, 429}}";
 			sepNavWindowFrame = "{{38, 0}, {750, 778}}";
 		};
 	};
 	3D13057106574ED200C942B8 /* ItalkController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {758, 440}}";
+			sepNavIntBoundsRect = "{{0, 0}, {770, 389}}";
 			sepNavSelRange = "{479, 0}";
 			sepNavVisRange = "{0, 767}";
 			sepNavVisRect = "{{0, 0}, {742, 429}}";
@@ -614,7 +609,7 @@
 	};
 	3D13057B065750FB00C942B8 /* Italk.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {758, 440}}";
+			sepNavIntBoundsRect = "{{0, 0}, {758, 414}}";
 			sepNavSelRange = "{178, 0}";
 			sepNavVisRange = "{0, 605}";
 			sepNavVisRect = "{{0, 0}, {742, 429}}";
@@ -623,52 +618,12 @@
 	};
 	3D13057C065750FB00C942B8 /* Italk.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {758, 3891}}";
-			sepNavSelRange = "{56, 0}";
-			sepNavVisRange = "{3506, 1283}";
+			sepNavIntBoundsRect = "{{0, 0}, {770, 3456}}";
+			sepNavSelRange = "{5395, 0}";
+			sepNavVisRange = "{3442, 1332}";
 			sepNavVisRect = "{{0, 2565}, {742, 429}}";
 			sepNavWindowFrame = "{{88, 0}, {750, 778}}";
 		};
-	};
-	3D16619F0FFEFD3B00F80E7C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D13057C065750FB00C942B8 /* Italk.m */;
-		name = "Italk.m: 5";
-		rLen = 0;
-		rLoc = 56;
-		rType = 0;
-		vrLen = 1283;
-		vrLoc = 3506;
-	};
-	3D1C92A50F3726A900E0B011 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D13057006574ED200C942B8 /* ItalkController.m */;
-		name = "ItalkController.m: 16";
-		rLen = 0;
-		rLoc = 512;
-		rType = 0;
-		vrLen = 893;
-		vrLoc = 2334;
-	};
-	3D1C92A60F3726A900E0B011 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D13057106574ED200C942B8 /* ItalkController.h */;
-		name = "ItalkController.h: 20";
-		rLen = 0;
-		rLoc = 479;
-		rType = 0;
-		vrLen = 763;
-		vrLoc = 0;
-	};
-	3D1C92A90F37270800E0B011 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D13057106574ED200C942B8 /* ItalkController.h */;
-		name = "ItalkController.h: 20";
-		rLen = 0;
-		rLoc = 479;
-		rType = 0;
-		vrLen = 767;
-		vrLoc = 0;
 	};
 	3D1CCE4108018F420009636B /* Japanese */ = {
 		uiCtxt = {
@@ -689,6 +644,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -701,6 +659,7 @@
 		name = italk;
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 		variableFormatDictionary = {
@@ -711,6 +670,9 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 		scmType = scm.cvs;
 	};
@@ -718,55 +680,45 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	3DC5CF260FFEFB7E00A54D99 /* PBXTextBookmark */ = {
+	3DD6875F13ADE2780019785A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3D13057C065750FB00C942B8 /* Italk.m */;
-		name = "Italk.m: 5";
+		name = "Italk.m: 200";
 		rLen = 0;
-		rLoc = 56;
+		rLoc = 5395;
 		rType = 0;
-		vrLen = 1283;
-		vrLoc = 3506;
+		vrLen = 1332;
+		vrLoc = 3442;
 	};
-	3DEAA2F20F7FA5D700767D55 /* PBXTextBookmark */ = {
+	3DD6876013ADE2780019785A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D13057106574ED200C942B8 /* ItalkController.h */;
+		name = "ItalkController.h: 20";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 0;
+	};
+	3DD6876113ADE2780019785A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3D13057006574ED200C942B8 /* ItalkController.m */;
-		name = "ItalkController.m: 19";
+		name = "ItalkController.m: 81";
 		rLen = 0;
-		rLoc = 672;
+		rLoc = 2203;
 		rType = 0;
-		vrLen = 919;
-		vrLoc = 2535;
+		vrLen = 893;
+		vrLoc = 2561;
 	};
-	3DEAA2F30F7FA5D700767D55 /* PBXTextBookmark */ = {
+	3DD6876213ADE2780019785A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 3D13057B065750FB00C942B8 /* Italk.h */;
-		name = "Italk.h: 10";
+		fRef = 3D13057006574ED200C942B8 /* ItalkController.m */;
+		name = "ItalkController.m: 81";
 		rLen = 0;
-		rLoc = 178;
+		rLoc = 2203;
 		rType = 0;
-		vrLen = 605;
-		vrLoc = 0;
-	};
-	3DEAA2F60F7FA5D700767D55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D13057C065750FB00C942B8 /* Italk.m */;
-		name = "Italk.m: 5";
-		rLen = 0;
-		rLoc = 56;
-		rType = 0;
-		vrLen = 1009;
-		vrLoc = 2787;
-	};
-	3DEAA2F70F7FA5D700767D55 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D13057B065750FB00C942B8 /* Italk.h */;
-		name = "Italk.h: 10";
-		rLen = 0;
-		rLoc = 178;
-		rType = 0;
-		vrLen = 605;
-		vrLoc = 0;
+		vrLen = 893;
+		vrLoc = 2561;
 	};
 	8D1107260486CEB800E47090 /* italk */ = {
 		activeExec = 0;
