@@ -144,7 +144,7 @@
     } else {
         toProcess = messageData;
     }
-    unsigned int length = [toProcess length];
+    NSUInteger length = [toProcess length];
     char *lineStart = (char *)[toProcess bytes];
     char *lineEnd = lineStart;
     int i, processed;
@@ -235,25 +235,20 @@
         return YES;
     }
     
-    int	result;
-    
-    // Display modal dialog
-    result = NSRunAlertPanel(
-                             @"Confirmation", 
-                             @"Really Quit?", 
-                             @"Yes", 
-                             @"No", 
-                             nil);
-    
-    if(result == NSAlertDefaultReturn) {
-        // OK button was pushed
-        [self disconnect];
-        return YES;
-    } else if(result == NSAlertAlternateReturn) {
-        // Cancel button was pushed
-        return NO;
+    NSAlert* alert = [[NSAlert alloc] init];
+    alert.messageText = @"Confirmation";
+    alert.informativeText = @"Really Quit?";
+    [alert addButtonWithTitle:@"Yes"];
+    [alert addButtonWithTitle:@"No"];
+    NSModalResponse result = [alert runModal];
+    switch (result) {
+        case NSAlertFirstButtonReturn:
+            [self disconnect];
+            return YES;
+        case NSAlertSecondButtonReturn:
+            return NO;
+        default:
+            return NO;
     }
-    
-    return YES;
 }
 @end

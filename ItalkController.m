@@ -47,8 +47,8 @@
     NSRange urlRange = {httpRange.location + [httpStr length], 0};
 
     // URL文字が続く範囲をスキャン
-    int i;
-    int len = [text length];
+    NSUInteger i;
+    NSUInteger len = [text length];
     for (i = urlRange.location; i < len; i++) {
 		unichar c = [text characterAtIndex:i];
 		if (![urlCharSet characterIsMember:c]) {
